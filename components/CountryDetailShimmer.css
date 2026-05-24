@@ -1,0 +1,45 @@
+.shimmer-back,
+.shimmer-flag,
+.shimmer-title,
+.shimmer-line {
+  background-color: #ddd;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.shimmer-back {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.shimmer-flag {
+  width: 500px;
+  height: 300px;
+}
+
+.shimmer-title {
+  width: 200px;
+  height: 32px;
+  margin-bottom: 30px;
+}
+
+.shimmer-line {
+  width: 250px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #ddd;
+  }
+
+  50% {
+    background-color: #f3f3f3;
+  }
+
+  100% {
+    background-color: #ddd;
+  }
+}
